@@ -1,0 +1,123 @@
+/*
+font-family: 'Archivo Black', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Poppins', sans-serif;
+*/
+:root {
+    --body-bg-color: #2b3e5f;
+    --text-color-white: white;
+    --font-size-menu: 1em;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--body-bg-color);
+    color: var(--text-color-white);
+    background-image: url(/src/imagens/bg-main.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.cabecalho .logo {
+    width: 120px;
+    margin: 0px 30px 0px 10px;
+}
+
+.cabecalho .menu {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.cabecalho .m-ativado {
+    font-weight: bold;
+}
+
+.cabecalho nav li a {
+    color: var(--text-color-white);
+    font-size: var(--font-size-menu);
+    padding: 10px 35px;
+}
+
+.botao-direita-topo {
+    width: 50%;
+    display: flex;
+    justify-content: right;
+    padding: 10px 45px;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-start;
+    height: calc(100vh - 160px);
+}
+
+.container .informacoes{
+    font-family: 'Archivo Black', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.8em;
+    margin: 60px auto 0px 120px;
+}
+
+.container .informacoes h1 {
+    padding-bottom: 15px;
+    line-height: 0.8;
+}
+
+.container .doutora-png {
+    max-width: 500px;
+    margin-right: 80px;
+}
+
+.botao-01 {
+    padding: 10px 45px;
+    border-radius: 50px;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.botao-02 {
+    background-color: transparent;
+    padding: 10px 45px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: white;
+    border-color: white;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer .p-endereco {
+    font-size: 25px;
+    font-style: italic;
+    margin-left: 50px;
+    font-weight: 600;
+}
+
+footer .p-endereco span {
+    font-weight: 500;
+}
+
+footer .p-info {
+    width: 40%;
+    font-size: 12px;
+    text-indent: 20px;
+}

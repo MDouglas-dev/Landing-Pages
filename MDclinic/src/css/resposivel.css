@@ -1,0 +1,22 @@
+@media (max-width: 375px) {
+    .cabecalho {
+       flex-direction: column;
+    }
+
+    .cabecalho .logo {
+        padding-bottom: 15px;
+    }
+
+    .cabecalho .menu {
+        flex-direction: column;
+    }
+
+    .botao-direita-topo {
+        justify-content: center;
+        width: auto;
+    }
+
+    header nav {
+        display: none;
+    }
+}
